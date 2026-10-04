@@ -1,0 +1,9 @@
+{
+  "folders": [
+    { "name": "New Life", "path": "." }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.analysis.extraPaths": ["${workspaceFolder}/src"]
+  }
+}

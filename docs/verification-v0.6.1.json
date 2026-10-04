@@ -1,0 +1,18 @@
+{
+  "version": "0.6.1",
+  "package_bytes": 156085569,
+  "package_entries": 336,
+  "sha256": "5b4295ea803015812820cb963d5c9ce8fec638eb264e59bd46483b55cf7f69f5",
+  "exe_sha256": "dfbc4c801cebd132ad5f16c309c1f5c56e8fef275907423115fcffe62baf76e0",
+  "zip_crc": "passed",
+  "exe_matches_verified_build": true,
+  "open_source_change": "LICENSE added; executable and dependencies unchanged",
+  "unit_tests": {
+    "passed": 360,
+    "seconds": 65.44
+  },
+  "frozen_exe_checks": {
+    "passed": 16
+  },
+  "real_device_call_validation": "Requires user testing with microphone, headphones and call software."
+}

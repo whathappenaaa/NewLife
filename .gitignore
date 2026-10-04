@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+artifacts/
+logs/
+*.spec
+vendor/ffmpeg/
+
+# Local recordings, recovery data, credentials, and databases are not source code.
+examples/audio/录音_*
+.newlife-undo/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+

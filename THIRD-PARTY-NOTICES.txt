@@ -1,0 +1,18 @@
+New Life 第三方组件说明
+
+本发布包采用动态库文件夹分发，允许替换兼容的第三方动态库。具体许可证文本随包保存在 licenses/；完整源码和维护者说明可从以下官方项目获取。
+
+CPython 3.13: Python Software Foundation License — https://www.python.org/
+PySide6 / Qt 6.11.2: LGPL-3.0 / GPL；本项目使用 LGPL 动态链接 — https://www.qt.io/qt-for-python
+PyAudioWPatch 0.2.12.8: Apache-2.0；PortAudio 采用 MIT 风格许可 — https://github.com/s0d3s/PyAudioWPatch
+NumPy 2.5.3: BSD-3-Clause 及所带组件许可 — https://numpy.org/
+soundfile 0.14.0: BSD-3-Clause；libsndfile 采用 LGPL-2.1-or-later — https://python-soundfile.readthedocs.io/
+soxr 1.1.0 / libsoxr: LGPL-2.1-or-later — https://python-soxr.readthedocs.io/
+Send2Trash 1.8.3: BSD — https://github.com/arsenetar/send2trash
+PyInstaller 6.22.3: GPLv2-or-later，带应用分发例外 — https://pyinstaller.org/
+FFmpeg n9.0.2-17-g2a571b6068 (BtbN 2026-09-30 Windows x64 LGPL shared)：LGPL-3.0-or-later；使用独立子进程与可替换的动态库文件夹。完整许可、对应 FFmpeg 源码、固定构建配方、构建参数及 SHA256 清单位于 licenses/FFmpeg/。
+固定构建：https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-09-30-13-08
+上游许可和组件说明：https://ffmpeg.org/legal.html
+
+VB-CABLE 为独立驱动，不包含在本软件发布包中，不由本软件自动安装。官方说明：https://vb-audio.com/Cable/
+示例音频由本项目通过数学合成生成，不包含个人录音。

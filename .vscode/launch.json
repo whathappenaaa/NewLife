@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "New Life：启动与调试",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "niulai_player",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "New Life：MUSIC 自带音频（独立配置）",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "niulai_player",
+      "args": ["--folder", "${workspaceFolder}/MUSIC", "--data-dir", "${workspaceFolder}/artifacts/music-dev-data"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "New Life：示例音频（独立测试数据）",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "niulai_player",
+      "args": ["--folder", "${workspaceFolder}/examples/audio", "--data-dir", "${workspaceFolder}/artifacts/demo-data"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
