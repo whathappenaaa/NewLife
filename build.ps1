@@ -3,7 +3,7 @@ Set-Location -LiteralPath $PSScriptRoot
 $playerPython = Join-Path $PSScriptRoot '.venv\Scripts\python.exe'
 $playerAssets = Join-Path $PSScriptRoot 'assets'
 $playerIcon = Join-Path $playerAssets 'app.ico'
-$playerRelease = 'artifacts\release-v0.6.1'
+$playerRelease = 'artifacts\release-v0.6.2'
 & $playerPython 'scripts\fetch_ffmpeg.py'
 if ($LASTEXITCODE -ne 0) { throw 'FFmpeg 下载或校验失败。' }
 & $playerPython 'scripts\archive_ffmpeg_sources.py'
@@ -14,7 +14,7 @@ if ($LASTEXITCODE -ne 0) { throw '测试失败，停止打包。' }
 $playerOriginalPath = $env:PATH
 try {
     $env:PATH = @((Split-Path $playerPython), "$env:WINDIR\System32", $env:WINDIR) -join ';'
-    & $playerPython -m PyInstaller --noconfirm --clean --windowed --onedir --name NewLife --icon $playerIcon --add-data "$playerAssets;assets" --distpath $playerRelease --workpath artifacts\build-v0.6.1 --specpath artifacts --collect-all pyaudiowpatch --collect-all _soundfile_data --exclude-module PySide6.QtQml --exclude-module PySide6.QtQuick --exclude-module PySide6.QtWebEngineCore --exclude-module PySide6.QtWebEngineWidgets tools\package_entry.py
+    & $playerPython -m PyInstaller --noconfirm --clean --windowed --onedir --name NewLife --icon $playerIcon --add-data "$playerAssets;assets" --distpath $playerRelease --workpath artifacts\build-v0.6.2 --specpath artifacts --collect-all pyaudiowpatch --collect-all _soundfile_data --exclude-module PySide6.QtQml --exclude-module PySide6.QtQuick --exclude-module PySide6.QtWebEngineCore --exclude-module PySide6.QtWebEngineWidgets tools\package_entry.py
     $playerBuildExit = $LASTEXITCODE
 } finally {
     $env:PATH = $playerOriginalPath
@@ -32,5 +32,5 @@ New-Item -ItemType Directory -Path $playerFfmpeg -Force | Out-Null
 Copy-Item -LiteralPath 'vendor\ffmpeg\bin' -Destination $playerFfmpeg -Recurse -Force
 & $playerPython 'tools\collect_licenses.py' (Join-Path $playerApp 'licenses')
 if ($LASTEXITCODE -ne 0) { throw '许可证收集失败。' }
-Compress-Archive -LiteralPath $playerApp -DestinationPath 'artifacts\NewLife-v0.6.1-win-x64.zip' -Force
-Write-Host '发布包：artifacts\NewLife-v0.6.1-win-x64.zip'
+Compress-Archive -LiteralPath $playerApp -DestinationPath 'artifacts\NewLife-v0.6.2-win-x64.zip' -Force
+Write-Host '发布包：artifacts\NewLife-v0.6.2-win-x64.zip'

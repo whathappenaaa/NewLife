@@ -1,0 +1,298 @@
+{
+  "application": "New Life",
+  "version": "0.6.2",
+  "validation": "bundled media and portable configuration loading",
+  "audio_file_count": 6,
+  "configuration_file_count": 6,
+  "total_media_and_configuration_bytes": 55672119,
+  "copies_match_originals": true,
+  "source_files_unchanged": true,
+  "bundled_files_unchanged": true,
+  "isolated_profile": true,
+  "hardware_capture_used": false,
+  "all_checks_passed": true,
+  "files": [
+    {
+      "media": "MUSIC/NICE爷爷.wav",
+      "configuration": "MUSIC/NICE爷爷.wav.newlife",
+      "duration_seconds": 5.24975,
+      "play_start_seconds": 1.8609188432835815,
+      "play_end_seconds": 4.3943802860696515,
+      "media_sha256": "aa5ef46467e4d5b6d90fc04ee64d42f933323d6be77a179dae0948442355e76d",
+      "configuration_sha256": "fc209e12b53be6032bd2692b7ac66232df5fd1cba9a073181ddb79484e09f30c",
+      "configuration_version": 1,
+      "configuration_loaded": true,
+      "display_name": "NICE爷爷",
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "image_dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "image_dimensions": [
+            428,
+            267
+          ]
+        },
+        {
+          "slot": "background",
+          "loaded": true,
+          "image_dimensions": [
+            428,
+            40
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "image_dimensions": [
+            428,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/宗主.wav",
+      "configuration": "MUSIC/宗主.wav.newlife",
+      "duration_seconds": 21.056729,
+      "play_start_seconds": 0.0,
+      "play_end_seconds": 21.056729,
+      "media_sha256": "fed4f09d0444bc0d3b2c8cae4e1cd778f6b94bb3f202eb95336bf482b369099c",
+      "configuration_sha256": "328545bb313ac49022b5a7eface00f6136bb670ccabe633343ebb020663086bf",
+      "configuration_version": 1,
+      "configuration_loaded": true,
+      "display_name": "宗主",
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "image_dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "image_dimensions": [
+            393,
+            339
+          ]
+        },
+        {
+          "slot": "background",
+          "loaded": true,
+          "image_dimensions": [
+            393,
+            37
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "image_dimensions": [
+            393,
+            339
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/怒斥王朗.wav",
+      "configuration": "MUSIC/怒斥王朗.wav.newlife",
+      "duration_seconds": 176.865917,
+      "play_start_seconds": 146.82021866021492,
+      "play_end_seconds": 176.865917,
+      "media_sha256": "dbf68daf8a4f546c50065904cf93026cea371c6d92c32dc54756d95efe23daf7",
+      "configuration_sha256": "24f2e467c15fe962931846cfa273f6d53b972c411b0f6df24a7d120b8525b533",
+      "configuration_version": 1,
+      "configuration_loaded": true,
+      "display_name": "怒斥王朗",
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "image_dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "image_dimensions": [
+            768,
+            591
+          ]
+        },
+        {
+          "slot": "background",
+          "loaded": true,
+          "image_dimensions": [
+            768,
+            72
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "image_dimensions": [
+            768,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/恩情.wav",
+      "configuration": "MUSIC/恩情.wav.newlife",
+      "duration_seconds": 50.0335,
+      "play_start_seconds": 2.868183095015954,
+      "play_end_seconds": 50.0335,
+      "media_sha256": "d470c857c53d5cb8baf8bc63f3f5e802af434ae499119724529f181f2ca3cc83",
+      "configuration_sha256": "2cb7743536a7742282716803f62e825408cf48be3e0b2115ee5a47004921f468",
+      "configuration_version": 1,
+      "configuration_loaded": true,
+      "display_name": "恩情",
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "image_dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "image_dimensions": [
+            282,
+            245
+          ]
+        },
+        {
+          "slot": "background",
+          "loaded": true,
+          "image_dimensions": [
+            282,
+            27
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "image_dimensions": [
+            282,
+            245
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/牛来.wav",
+      "configuration": "MUSIC/牛来.wav.newlife",
+      "duration_seconds": 10.600792,
+      "play_start_seconds": 1.2557964057971007,
+      "play_end_seconds": 10.600792,
+      "media_sha256": "16872d89da5dff8cf3acd4a8841ad90f1ecc9fd0a4573cad7e7c6177fbe23a66",
+      "configuration_sha256": "92d0db7f0414d171c190a185bdc4eb50aec9c15eccb92f8341ce5ddb982bd700",
+      "configuration_version": 1,
+      "configuration_loaded": true,
+      "display_name": "牛来",
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "image_dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "image_dimensions": [
+            725,
+            522
+          ]
+        },
+        {
+          "slot": "background",
+          "loaded": true,
+          "image_dimensions": [
+            725,
+            69
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "image_dimensions": [
+            725,
+            522
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/老头笑.wav",
+      "configuration": "MUSIC/老头笑.wav.newlife",
+      "duration_seconds": 11.952875,
+      "play_start_seconds": 1.8286114738805972,
+      "play_end_seconds": 7.552314054726367,
+      "media_sha256": "1dcc1db07d97d70a4d55102d8e8c41597819c5bc35eb92a5d5faecd9968edc39",
+      "configuration_sha256": "bddd0ea649a8df7d196bbc796cc379a9752c85878cd50ded6586c29a0ff97430",
+      "configuration_version": 1,
+      "configuration_loaded": true,
+      "display_name": "老头笑",
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "image_dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "image_dimensions": [
+            590,
+            338
+          ]
+        },
+        {
+          "slot": "background",
+          "loaded": true,
+          "image_dimensions": [
+            590,
+            56
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "image_dimensions": [
+            590,
+            338
+          ]
+        }
+      ]
+    }
+  ]
+}

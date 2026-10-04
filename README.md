@@ -6,11 +6,11 @@
 
 本项目源码以 [MIT 许可证](LICENSE) 开源，作者署名 **Bilibili那年松江**。播放器可免费下载和使用，第三方组件保留各自许可证，详情见文末。
 
-![New Life 中文深色主窗口](docs/screenshots/main.png)
+![New Life 中文主窗口与随附音频](docs/screenshots/main.png)
 
 ## 直接运行
 
-打开 [Releases 下载页面](https://github.com/whathappenaaa/NewLife/releases)，在对应版本的 **Assets** 中下载 `NewLife-v0.6.1-win-x64.zip`。完整解压后，双击文件夹中的 `NewLife.exe`；保留旁边的 `_internal`、`vendor`、`MUSIC` 和许可证文件。无需安装 Python 或 FFmpeg。
+打开 [Releases 下载页面](https://github.com/whathappenaaa/NewLife/releases)，在对应版本的 **Assets** 中下载 `NewLife-v0.6.2-win-x64.zip`。完整解压后，双击文件夹中的 `NewLife.exe`；保留旁边的 `_internal`、`vendor`、`MUSIC` 和许可证文件。无需安装 Python 或 FFmpeg。包内附六份音频及对应的头像、背景和播放范围配置，首次启动即可使用。
 
 GitHub 的 **Code → Download ZIP** 和 Releases 自动生成的 **Source code** 是源码，供开发者使用；想直接运行软件，请下载上面的 Windows 运行包。
 
@@ -90,16 +90,20 @@ py -3.13 -m venv .venv
 ```powershell
 .\.venv\Scripts\python.exe -m pytest -q
 .\build.ps1
-.\.venv\Scripts\python.exe tools/verify_release.py artifacts/release-v0.6.1/NewLife/NewLife.exe
+.\.venv\Scripts\python.exe tools/verify_release.py artifacts/release-v0.6.2/NewLife/NewLife.exe
 ```
 
-`--no-audio` 为界面预览；截图验证不会修改系统通信设置。设备同步和永久保存测试使用模拟设备，不修改真实默认麦克风。v0.6.1 已通过 360 项自动化测试和 16 项打包运行检查；这些检查不能代替真实通话验证。真实麦克风质量、长时间混合录音，以及微信／QQ／Discord 双方是否同时听到讲话和片段，需要使用真实设备配合验证。详情见 [验收记录](VALIDATION.md)。
+`--no-audio` 为界面预览；截图验证不会修改系统通信设置。设备同步和永久保存测试使用模拟设备，不修改真实默认麦克风。v0.6.2 已通过 360 项自动化测试和 16 项打包运行检查，六套自带音频的便携配置在全新启动中恢复成功；这些检查不能代替真实通话验证。真实麦克风质量、长时间混合录音，以及微信／QQ／Discord 双方是否同时听到讲话和片段，需要使用真实设备配合验证。详情见 [验收记录](VALIDATION.md)。
 
 主窗口底部署名：**Bilibili那年松江**。
 
 ## 准备自带音频
 
-开发时把拥有分发权限的音频与对应 `.newlife` 配置放在项目根目录 `MUSIC`，然后运行打包脚本。发布版会复制到 EXE 旁的 MUSIC；不包含其他播放文件夹、录音恢复文件或本机数据库。目前 MUSIC 仅包含目录说明，示例声音在 `examples/audio`，由程序生成。
+开发时把拥有分发权限的音频与对应 `.newlife` 配置放在项目根目录 `MUSIC`，然后运行打包脚本。发布版会复制到 EXE 旁的 MUSIC；不包含其他播放文件夹、录音恢复文件或本机数据库。
+
+当前 MUSIC 内附 **恩情、老头笑、牛来、怒斥王朗、宗主、NICE爷爷** 六份音频，每份都保留同名 `.newlife` 包里的头像、背景及播放范围。复制或移动时，请带上配对的两个文件。已有有效自选文件夹的用户，通过文件夹按钮选择程序旁的 MUSIC 即可看到这些音频。`examples/audio` 另有四份由程序生成的开发样例。
+
+已有播放器、只想添加这些音频时，可在 [Releases](https://github.com/whathappenaaa/NewLife/releases/latest) 下载 `NewLife-MUSIC-v0.6.2.zip`，解压到一个新文件夹，再在播放器中选择其中的 MUSIC。资源包不含 EXE。[音频及配置验证记录](docs/bundled-music-v0.6.2.json)
 
 ## 开源与第三方组件
 

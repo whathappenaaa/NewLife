@@ -1,0 +1,31 @@
+{
+  "version": "0.6.2",
+  "package_bytes": 198131830,
+  "package_entries": 348,
+  "sha256": "5576a441b8bdced485657e30b5665be36de7e8147183dc4a4728ce14d59d3810",
+  "exe_sha256": "2628857b5365aef2ef7cce797a73ff265e5cd82646a8911f2f960d188cb484d6",
+  "zip_crc": "passed",
+  "bundled_audio_files": 6,
+  "bundled_configuration_packages": 6,
+  "media_configuration_bytes": 55672119,
+  "music_package_bytes": 41366094,
+  "music_sha256": "22796118d3c437bf0a0c181a0738758c72acd289155e56489dc5aed2a0af0de7",
+  "original_recordings_unchanged": true,
+  "packaged_files_match_originals": true,
+  "unit_tests": {
+    "passed": 360,
+    "seconds": 57.12
+  },
+  "frozen_exe_checks": {
+    "passed": 16,
+    "status": "passed"
+  },
+  "fresh_exe_profile": {
+    "default_sibling_music": true,
+    "audio_files": 6,
+    "configuration_packages": 6,
+    "avatar_background_range_loaded": true,
+    "system_settings_changed": false,
+    "hardware_audio_used": false
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "application": "New Life",
+  "version": "0.6.2",
+  "frozen_application": true,
+  "exit_code": 0,
+  "fresh_profile": true,
+  "launch_directory_differs_from_executable": true,
+  "folder_argument_supplied": false,
+  "default_executable_sibling_music_used": true,
+  "audio_file_count": 6,
+  "all_portable_assets_and_ranges_loaded": true,
+  "no_audio_mode": true,
+  "system_settings_changed": false,
+  "startup_version_confirmed": true,
+  "error_free_log": true,
+  "source_files_unchanged": true,
+  "release_music_unchanged": true,
+  "screenshot": "screenshots/main.png",
+  "files": [
+    {
+      "media": "MUSIC/NICE爷爷.wav",
+      "configuration_loaded": true,
+      "display_name": "NICE爷爷",
+      "duration_seconds": 5.24975,
+      "play_start_seconds": 1.8609188432835815,
+      "play_end_seconds": 4.3943802860696515,
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "background",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            428,
+            40
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            428,
+            267
+          ]
+        },
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            428,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/宗主.wav",
+      "configuration_loaded": true,
+      "display_name": "宗主",
+      "duration_seconds": 21.056729,
+      "play_start_seconds": 0.0,
+      "play_end_seconds": 21.056729,
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "background",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            393,
+            37
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            393,
+            339
+          ]
+        },
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            393,
+            339
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/怒斥王朗.wav",
+      "configuration_loaded": true,
+      "display_name": "怒斥王朗",
+      "duration_seconds": 176.865917,
+      "play_start_seconds": 146.82021866021492,
+      "play_end_seconds": 176.865917,
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "background",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            768,
+            72
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            768,
+            591
+          ]
+        },
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            768,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/恩情.wav",
+      "configuration_loaded": true,
+      "display_name": "恩情",
+      "duration_seconds": 50.0335,
+      "play_start_seconds": 2.868183095015954,
+      "play_end_seconds": 50.0335,
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "background",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            282,
+            27
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            282,
+            245
+          ]
+        },
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            282,
+            245
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/牛来.wav",
+      "configuration_loaded": true,
+      "display_name": "牛来",
+      "duration_seconds": 10.600792,
+      "play_start_seconds": 1.2557964057971007,
+      "play_end_seconds": 10.600792,
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "background",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            725,
+            69
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            725,
+            522
+          ]
+        },
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            725,
+            522
+          ]
+        }
+      ]
+    },
+    {
+      "media": "MUSIC/老头笑.wav",
+      "configuration_loaded": true,
+      "display_name": "老头笑",
+      "duration_seconds": 11.952875,
+      "play_start_seconds": 1.8286114738805972,
+      "play_end_seconds": 7.552314054726367,
+      "play_range_matches_configuration": true,
+      "assets": [
+        {
+          "slot": "background",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            590,
+            56
+          ]
+        },
+        {
+          "slot": "background_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            590,
+            338
+          ]
+        },
+        {
+          "slot": "avatar",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            256,
+            256
+          ]
+        },
+        {
+          "slot": "avatar_source",
+          "loaded": true,
+          "matches_configuration_asset": true,
+          "dimensions": [
+            590,
+            338
+          ]
+        }
+      ]
+    }
+  ]
+}
